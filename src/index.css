@@ -7,3 +7,53 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+
+/* HEADER */
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dc-logo {
+    width: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 10px;
+}
+
+.navbar li {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.barra-hover {
+    position: absolute;
+    background-color: rgb(5, 132, 250);
+    width: 100%;
+    height: 4px;
+    margin-top: 29px;
+    display: none;
+}
+
+.navbar li:hover {
+    color: rgb(5, 132, 250);
+    cursor: pointer;
+}
+
+.navbar li:hover .barra-hover {
+    display: block;
+}
+
+
+/* MAIN */
+
+cc

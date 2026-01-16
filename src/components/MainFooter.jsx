@@ -1,6 +1,8 @@
 const MainFooter = () => {
     return (
-        <p>sono il footer</p>
+        <footer>
+            <p>sono footer</p>
+        </footer>
     )
 }
 

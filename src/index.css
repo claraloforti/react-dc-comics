@@ -125,6 +125,7 @@ footer {
 .footer-lists {
     background-image: url("/img/footer-bg.jpg");
     height: 350px;
+    overflow: hidden;
 }
 
 .el-1,

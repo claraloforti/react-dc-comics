@@ -52,6 +52,11 @@ header * {
     position: relative;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: gray;
+}
+
 .barra-hover {
     position: absolute;
     background-color: rgb(5, 132, 250);

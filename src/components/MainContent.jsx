@@ -1,11 +1,10 @@
+import ComicsList from "./comics"
+
 const MainContent = () => {
     return (
         <main>
-            <section className="content-section">
-                <div className="container">
-                    <h3>Content goes here</h3>
-                </div>
-            </section>
+            <section className="jumbo"></section>
+            <ComicsList />
             <section className="info-section">
                 <div className="container">
                     <ul>

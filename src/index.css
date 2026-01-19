@@ -73,15 +73,69 @@ header * {
 
 /* MAIN */
 
+/* Jumbotron */
+
+.jumbo {
+    height: 270px;
+    background-size: cover;
+    background-image: url("/img/jumbotron.jpg");
+}
+
 /* Sezione contenuti */
 
 .content-section {
     background-color: black;
     color: white;
-    height: 100px;
     display: flex;
     align-items: center;
+    padding: 20px;
 }
+
+.cards-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.comic-card {
+    width: calc(100% / 6 - 20px);
+    color: white;
+    text-align: center;
+}
+
+.comic-card img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.content-section .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-section label,
+.content-section button {
+    background-color: rgb(5, 132, 250);
+    width: fit-content;
+    color: white;
+}
+
+.content-section label {
+    position: absolute;
+    transform: translate(0, -100%);
+    padding: 4px 14px;
+}
+
+.content-section button {
+    margin: 0 auto;
+    border: none;
+    padding: 5px 40px;
+}
+
+/* Sezione Info */
 
 .info-section {
     background-color: rgb(5, 132, 250);

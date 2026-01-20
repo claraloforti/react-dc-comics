@@ -162,6 +162,7 @@ const ComicsList = () => {
     return comics.map((comic) => (
       <ComicCard key={comic.id} // key serve a React per identificare in modo univoco ogni ComicCard
         comic={comic} // passo il singolo fumetto al componente ComicCard
+      // comic è il nome della prop, {comic} è l'oggetto del singolo fumetto
       />
     ))
   }

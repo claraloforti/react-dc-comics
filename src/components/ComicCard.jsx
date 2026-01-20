@@ -1,7 +1,6 @@
-const ComicCard = (props) => { // props è l'oggetto che contiene i dati passati dal componente padre (Comics)
-
-    // Destructuring
-    const { thumb, series } = props.comic; // Prendo da props.comic solo thumb e series e li salvo in due variabili
+const ComicCard = ({ comic: { thumb, series } }) => {
+    // Destrutturo direttamente le prop nei parametri del componente
+    // prendendo thumb e series dall'oggetto comic passato dal genitore (Comics)
     // Che è equivalente a 
     // const thumb = props.comic.thumb;
     // const series = props.comic.series;

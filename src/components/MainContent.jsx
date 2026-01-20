@@ -1,4 +1,4 @@
-import ComicsList from "./comics"
+import ComicsList from "./ComicsList"
 
 const MainContent = () => {
     return (

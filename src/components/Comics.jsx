@@ -160,8 +160,8 @@ const ComicsList = () => {
   // Funzione per renderizzare fumetti
   const renderComics = () => {
     return comics.map((comic) => (
-      <ComicCard key={comic.id}
-        comic={comic}
+      <ComicCard key={comic.id} // key serve a React per identificare in modo univoco ogni ComicCard
+        comic={comic} // passo il singolo fumetto al componente ComicCard
       />
     ))
   }
